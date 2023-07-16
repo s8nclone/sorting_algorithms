@@ -11,8 +11,8 @@
 /*Enumeration of boolean values*/
 typedef enum bool
 {
-   false = 0,
-   true
+	false = 0,
+	true
 } bool;
 
 
@@ -26,9 +26,9 @@ typedef enum bool
 
 typedef struct listint_s
 {
-   const int n;
-   struct listint_s *prev;
-   struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /*Helper function for swapping*/
