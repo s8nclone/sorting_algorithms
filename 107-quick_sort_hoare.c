@@ -1,20 +1,22 @@
 #include "sort.h"
 
 /**
- * swap_ints - Function
+ * swap - Function
  *
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @array: array
+ * @item1: array element
+ * @item2: array element
  *
- * Description: Swaps two inteeres in an array
- */
-void swap_ints(int *a, int *b)
+ * Description: Swaps the position of two elements in an array
+*/
+
+void swap(int *array, ssize_t item1, ssize_t item2)
 {
 	int tmp;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	tmp = array[item1];
+	array[item1] = array[item2];
+	array[item2] = tmp;
 }
 
 /**
