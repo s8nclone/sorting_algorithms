@@ -1,1 +1,1 @@
-# sorting_algorithms
+this repository contains files on sorting algorithms
