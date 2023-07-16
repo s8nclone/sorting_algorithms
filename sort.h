@@ -8,7 +8,14 @@
 #define UP 0
 #define DOWN 1
 
-/*Enumeration of boolean values*/
+/**
+ * enum bool - func
+ *
+ * @false: false value
+ * @true: true value
+ *
+ * Description: Enumeration of boolean values
+ */
 typedef enum bool
 {
 	false = 0,
